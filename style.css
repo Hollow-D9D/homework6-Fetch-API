@@ -1,0 +1,55 @@
+h2 {
+  font-variant: small-caps;
+}
+
+body {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#decoration {
+  position: fixed;
+  background-color: #8400b8;
+  align-self: left;
+  top: 0px;
+  right: 0px;
+  width: 150px;
+  height: 100%;
+}
+
+#searchBar {
+  outline: burlywood;
+}
+
+.country {
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  border: 2px solid gray;
+  margin: 20px;
+  background-color: #474747;
+  color: whitesmoke;
+}
+
+#countriesDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  margin-top: 20px;
+  width: 70%;
+  height: 70%;
+}
+
+#singleCountry {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#imgDiv {
+  margin: auto;
+  width: 20%;
+  height: 20%;
+}
